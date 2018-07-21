@@ -1,0 +1,25 @@
+{
+  "name": "rc-eventstore",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryo-consulting/eventstore.git"
+  },
+  "author": "Ryo Consulting",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryo-consulting/eventstore/issues"
+  },
+  "homepage": "https://github.com/ryo-consulting/eventstore#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "eventstore": "^1.14.1",
+    "redis": "^2.8.0",
+    "uuid": "^3.3.2"
+  }
+}
